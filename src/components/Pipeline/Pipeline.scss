@@ -1,0 +1,31 @@
+@import '~flamework/vars';
+
+#Pipeline {
+  font-size: .8rem;
+  padding-top: 20%;
+  padding-bottom: 5rem;
+  background-image: url(./wave.svg);
+  background-position: center -1%;
+  background-size: 101% auto;
+  background-repeat: no-repeat;
+
+  li {
+    padding: .5em;
+    &:first-of-type {
+      padding-left: 0;
+    }
+    &:last-of-type {
+      padding-right: 0;
+    }
+
+    @media #{$mobile} {
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    p {
+      font-size: .8em;
+      color: $black8;
+    }
+  }
+}

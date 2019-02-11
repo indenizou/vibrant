@@ -1,0 +1,11 @@
+@import 'vars.scss';
+
+#HowItWorks {
+  padding: 12vmin 0 0;
+  background-color: $primary;
+  color: white;
+
+  .paperPlanes {
+    width: 100%;
+  }
+}
