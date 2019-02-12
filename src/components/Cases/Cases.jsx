@@ -4,7 +4,7 @@ import cases from './testimonials-data';
 import './Cases.scss';
 
 const Cases = (
-  <section id="Cases" className="column contain" mobile-align="start center">
+  <section id="Cases" className="column contain ph2" mobile-align="start center">
     <h2 className="mb1">Casos e Depoimentos</h2>
 
     <ul row="" align="around">

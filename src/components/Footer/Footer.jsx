@@ -7,7 +7,7 @@ import './Footer.scss';
 
 const Footer = (
   <footer id="Footer" hide-print="">
-    <div className="contain mobile-column row footer" align="between start" mobile-align="center center">
+    <div className="contain mobile-column ph2 row footer" align="between start" mobile-align="center center">
       <a row="nowrap" align="center center" className="link mb1" href="//indenizou.com/">
         <img className="mr05" width="24" src={logo} alt="Logo Indenizou" />
         <p>Indenizou</p>

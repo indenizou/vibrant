@@ -8,10 +8,13 @@ import suitcase from './case.svg';
 
 const Header = (
   <header id="header" row="">
-    <div row="nowrap" mobile-column="" className="contain" align="around center">
+    <div row="nowrap" mobile-column="" className="contain ph1" align="around center">
       <div mobile-flex="100" className="p1 hero">
         <div className="ph2">
-          <h4>Deu ruim?</h4>
+          <h5>
+            Vôo atrasado ou cancelado?<br />
+            Bagagem foi danificada ou extraviada? Teve overbooking?
+          </h5>
           <h1><b>Aqui sua indenização chega voando!</b></h1>
           <h2>A ajuda <b>é grátis</b>, então peça agora a sua!</h2>
         </div>
