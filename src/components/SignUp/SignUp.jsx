@@ -31,7 +31,6 @@ class SignUp extends PureComponent {
   handleRadio = e => this.setState(({ problema: e.target.value }));
 
   handleSocialLogin = ({ _profile: u }) => {
-    console.log(u);
     this.email.current.value = u.email;
     this.name = u.name;
     if (u.profilePicURL) this.profilePicture = u.profilePicURL;
@@ -44,12 +43,12 @@ class SignUp extends PureComponent {
     e.preventDefault();
 
     const data = {
-      EMAIL: this.email.current.value,
-      PHONE: phone,
-      ASSUNTO: problema,
-      OUTROS: (this.description.current && this.description.current.value) || null,
-      CONTACTBY: contactby ? 'whatsapp' : 'email',
-      NAME: this.name,
+      email: this.email.current.value,
+      phone,
+      assunto: problema,
+      outros: (this.description.current && this.description.current.value) || null,
+      contactby: contactby ? 'whatsapp' : 'email',
+      name: this.name,
     };
 
     if (this.profilePicture) data.profilePicture = this.profilePicture;
