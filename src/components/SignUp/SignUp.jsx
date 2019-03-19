@@ -153,7 +153,7 @@ SignUp.propTypes = {
 };
 
 SignUp.defaultProps = {
-  url: `${process.env.API_URL || 'https://api.indenizou.com'}/subscribe'`,
+  url: `${process.env.API_URL || 'https://api.indenizou.com'}/subscribe`,
   className: '',
   compact: false,
 };
