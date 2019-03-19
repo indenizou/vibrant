@@ -1,7 +1,7 @@
 {
   "name": "@indenizou/vibrant",
   "version": "1.0.0",
-  "homepage": "http://indenizou.alia.ml",
+  "homepage": "http://pediu.indenizou.com",
   "description": "Seu voo atrasou, foi cancelado? Sua bagagem foi danificada ou extraviada? Na indenizou.com pedir indenização é GRÁTIS! Peça já. Seus direitos aqui valem muito. Indique amigos e ganhe!",
   "main": "./src/index.js",
   "repository": "github:indenizou/vibrant.git",
