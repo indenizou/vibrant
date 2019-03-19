@@ -9,7 +9,6 @@ import axios from 'axios';
 import SelectIssue from 'components/SelectIssue/SelectIssue';
 import SocialLogin from 'components/SocialLogin/SocialLogin';
 import ThankYou from './ThankYou';
-import { apiUrl } from '../../../data';
 import './SignUp.scss';
 
 class SignUp extends PureComponent {
@@ -154,7 +153,7 @@ SignUp.propTypes = {
 };
 
 SignUp.defaultProps = {
-  url: `${apiUrl}/subscribe'`,
+  url: `${process.env.API_URL || 'https://api.indenizou.com'}/subscribe'`,
   className: '',
   compact: false,
 };
