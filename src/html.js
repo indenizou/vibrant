@@ -1,7 +1,7 @@
 /* eslint-disable react/no-danger */
 import React from 'react';
 import PropTypes from 'prop-types';
-import chatLauncher, { widgetUrl } from 'chatbot';
+import chatLauncher from 'chatbot';
 import app from '../data';
 
 const isProd = true || process.env.NODE_ENV === 'production';
@@ -56,7 +56,8 @@ const HTML = ({
         dangerouslySetInnerHTML={{ __html: body }}
       />
       {postBodyComponents}
-      {isProd && <script dangerouslySetInnerHTML={{ __html: chatLauncher }} />}
+      {isProd && <script async defer dangerouslySetInnerHTML={{ __html: chatLauncher }} />}
+      {/* {isProd && <script async defer src={`//www.google.com/recaptcha/api.js?render=${app.captcha}`} />} */}
     </body>
   </html>
 );

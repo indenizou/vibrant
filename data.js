@@ -11,6 +11,7 @@ const appData = {
   defaultLang: fallback.defaultLang,
   theme: fallback.theme,
   facebookApp: process.env.FACEBOOK_APP || fallback.facebookApp,
+  captcha: process.env.CAPTCHA || fallback.captcha,
   analytics: process.env.ANALYTICS || fallback.analytics,
   keywords: process.env.KEYWORDS || fallback.keywords,
   author: fallback.author,

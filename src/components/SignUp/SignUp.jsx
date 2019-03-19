@@ -2,6 +2,7 @@
 import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 import PhoneInput from 'react-phone-number-input';
+// import { ReCaptcha } from 'react-recaptcha-v3'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import axios from 'axios';
@@ -17,14 +18,13 @@ class SignUp extends PureComponent {
     this.description = React.createRef();
     this.name = '';
     this.profilePicture = '';
+    this.state = {
+      problema: 'atraso',
+      phone: '',
+      submitted: false,
+      contactby: false,
+    };
   }
-
-  state = {
-    problema: 'atraso',
-    phone: '',
-    submitted: false,
-    contactby: false,
-  };
 
   handleContactBy = () => this.setState(({ contactby }) => ({ contactby: !contactby }));
   handlePhone = phone => this.setState({ phone });
