@@ -1,16 +1,17 @@
 {
-  "name": "Indenizou",
-  "websiteName": "Vôo atrasado, cancelado ou bagagem extraviada",
-  "domain": "pediu.indenizou.com",
-  "description": "Seu voo atrasou, foi cancelado? Sua bagagem foi danificada ou extraviada? Na indenizou.com pedir indenização é GRÁTIS! Peça já. Seus direitos aqui valem muito. Indique amigos e ganhe!",
-  "email": "contato@indenizou.com",
-  "theme": "#4619B9",
-  "facebookApp": 255011151837144,
-  "googleAppId": "599757279161-4dp6k82irfvncd2agmfho26e9oerhd9b.apps.googleusercontent.com",
-  "captcha": "6LdOmZgUAAAAANHU2962fEUdP5sJ2gXwV73BUnCy",
   "analyctics": "UA-118913715-22",
+  "apiUrl": "https://api.indenizou.com",
   "author": "Christhopher Lion <christhopherleao@icloud.com>",
   "authorUrl": "https://alia.ml/",
+  "captcha": "6LdOmZgUAAAAANHU2962fEUdP5sJ2gXwV73BUnCy",
   "defaultLang": "pt",
-  "keywords": "Indenizou, voo atrasado, voo cancelado, bagagem extraviada"
+  "description": "Seu voo atrasou, foi cancelado? Sua bagagem foi danificada ou extraviada? Na indenizou.com pedir indenização é GRÁTIS! Peça já. Seus direitos aqui valem muito. Indique amigos e ganhe!",
+  "domain": "pediu.indenizou.com",
+  "email": "contato@indenizou.com",
+  "facebookApp": 255011151837144,
+  "googleAppId": "599757279161-4dp6k82irfvncd2agmfho26e9oerhd9b.apps.googleusercontent.com",
+  "keywords": "Indenizou, voo atrasado, voo cancelado, bagagem extraviada",
+  "name": "Indenizou",
+  "theme": "#4619B9",
+  "websiteName": "Vôo atrasado, cancelado ou bagagem extraviada"
 }
