@@ -4,7 +4,7 @@ const app = require('./data');
 module.exports = {
   siteMetadata: {
     title: app.name,
-    siteUrl: `http://${ app.domain }`,
+    siteUrl: `https://${app.domain}`,
     app,
   },
   plugins: [
@@ -20,7 +20,7 @@ module.exports = {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'images',
-        path: `${ __dirname }/src/images`,
+        path: `${__dirname}/src/images`,
       },
     },
     'gatsby-transformer-sharp',
