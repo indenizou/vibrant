@@ -25,7 +25,7 @@ const SocialLogin = memo(({ contactbyHandler, contactby, handleSocialLogin }) =>
       onLoginFailure={handleSocialLoginFailure}
     />
 
-    <label htmlFor="contactby" className={`button inline whatsapp check ${ contactby }`}>
+    <label htmlFor="contactby" className={`button inline whatsappButton check ${ contactby }`}>
       <input
         checked={contactby}
         type="checkbox"
