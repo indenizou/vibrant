@@ -35,7 +35,7 @@
     "react-phone-number-input": "^3.0.0",
     "react-recaptcha-v3": "^1.1.0",
     "react-social-login": "^3.4.5",
-    "react-toastify": "^5.4.0",
+    "react-toastify": "^6.0.0",
     "react-tooltip": "^4.0.0"
   },
   "devDependencies": {
