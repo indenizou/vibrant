@@ -8228,9 +8228,10 @@ fastq@^1.6.0:
   dependencies:
     reusify "^1.0.0"
 
-"favicons-webpack-plugin@git+https://github.com/Creatiwity/favicons-webpack-plugin.git#0872de414061baaad0a2853c77ae75bc38b8bbbf":
+"favicons-webpack-plugin@https://github.com/Creatiwity/favicons-webpack-plugin.git#0872de414061baaad0a2853c77ae75bc38b8bbbf":
   version "0.0.9"
-  resolved "git+https://github.com/Creatiwity/favicons-webpack-plugin.git#0872de414061baaad0a2853c77ae75bc38b8bbbf"
+  uid "0872de414061baaad0a2853c77ae75bc38b8bbbf"
+  resolved "https://github.com/Creatiwity/favicons-webpack-plugin.git#0872de414061baaad0a2853c77ae75bc38b8bbbf"
   dependencies:
     core-js "^2.5.7"
     favicons "^5.1.1"
@@ -15104,10 +15105,10 @@ react-phone-number-input@^3.0.0:
     libphonenumber-js "^1.7.45"
     prop-types "^15.7.2"
 
-react-recaptcha-v3@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/react-recaptcha-v3/-/react-recaptcha-v3-1.1.0.tgz#6c4c4808b2336d98586f90c72c38acfe64a6a51c"
-  integrity sha512-mNX6q4KEbY68kEiy1K7bbPihW8Ty3AWPtkogzM03xAI092js9atk1ThUlbiiqsEZTktn0rJqoo3WYY2reLZVBQ==
+react-recaptcha-v3@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/react-recaptcha-v3/-/react-recaptcha-v3-2.0.0.tgz#d37399be775d225f7396dc5760266c202a074ef6"
+  integrity sha512-90eifCUOLYMhi7lEMrdnGYSzT2MVxfBZb00N4LZnDf8IvK/rL5qeLLtp5HtAgsufwiI4Clrj9OPckUsB06wx6A==
 
 react-reconciler@^0.24.0:
   version "0.24.0"
