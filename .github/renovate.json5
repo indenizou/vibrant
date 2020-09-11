@@ -1,0 +1,30 @@
+{
+  "extends": [
+    "config:base"
+  ],
+  "schedule": ["every 1 months on the first day of the month"],
+  "requiredStatusChecks": null,
+  "lockFileMaintenance": {
+    "enabled": true
+  },
+  "packageRules": [
+    {
+      "updateTypes": ["major", "minor", "patch", "pin", "digest"],
+      "automerge": true
+    },
+    {
+      "packagePatterns": [
+        "*"
+      ],
+      "rangeStrategy": "pin"
+    },
+    {
+      "depTypeList": [
+        "engines",
+        "peerDependencies",
+        "resolutions"
+      ],
+      "rangeStrategy": "auto"
+    }
+  ]
+}
